@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
 # Load the saved model
-loaded_model = pickle.load(open(r"C:\Users\vansh\OneDrive\Desktop\credit_card\creditmodel.sav", "rb"))
+loaded_model = pickle.load(open("creditmodel.sav", "rb"))
 
 # Function to make predictions
 def credit_predict(input_data):
