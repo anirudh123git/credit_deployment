@@ -18,7 +18,7 @@ def credit_predict(input_data):
 # Main function for the Streamlit app
 def main():
     # Title of the web app
-    st.title("CREDIT CARD FRAUD DETECTION WEB APP BY ANIRUDH SHARMA")
+    st.title("CREDIT CARD FRAUD DETECTION WEB APP")
 
     # Input fields for the encoded values
     inputs = []
